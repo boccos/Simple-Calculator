@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    border: 2px solid black;
+    padding: 1em;
+}
+
+#display {
+    border: 2px solid black;
+    padding: 1em;
+}
