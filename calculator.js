@@ -155,8 +155,9 @@ const multiply = function(num1, num2) {
 }
 
 const divide = function(num1, num2) {
-  if (num2 == 0){
-    return "Error";
-  }
-  return num1 / num2;
+    if (num2 == 0) {
+        return "Error";
+    }
+    let quotient = num1 / num2;
+    return Math.round(quotient * 100) / 100;
 }
